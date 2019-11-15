@@ -1,0 +1,19 @@
+<p>main works!</p>
+<img src="../../assets/img/pika.gif" alt="">
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>EMAIL</th>
+    <th>NOMBRE</th>
+    <th>COMENTARIO</th>
+  </tr>
+    <tr *ngFor="let comentario of comentarios">
+      <td>{{comentario.id}}</td>
+      <td>{{comentario.email}}</td>
+      <td>{{comentario.name}}</td>
+      <td>{{comentario.body}}</td>
+
+    </tr>
+  </table>
